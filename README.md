@@ -2,7 +2,8 @@
 A Full Stack MERN app for building dynamic forms with drag and drop interface &amp; to track and view the responses received in the created form.
 
 
-<img width="1465" alt="Screenshot 2024-11-01 at 10 14 18 PM" src="https://github.com/user-attachments/assets/70a9a68c-ff0a-40ae-ba05-d4dd825c3699">
+<img width="1465" alt="Screenshot 2024-11-01 at 10 14 18 PM" src="https://github.com/user-attachments/assets/96231785-fc4b-4ec9-acb4-e974b13ef4ff">
+
 
 
 ## Installation
