@@ -4,6 +4,7 @@ export const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:4173',
   'https://easyformbuilder.netlify.app',
+  'https://dynamic-forms559.netlify.app'
 ];
 
 export const accessTokenExpiresIn = '1h';

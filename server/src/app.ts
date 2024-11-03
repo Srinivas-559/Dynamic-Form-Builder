@@ -23,6 +23,12 @@ app.use(
     crossOriginResourcePolicy: false,
   }),
 );
+app.use(cors({
+  origin: 'https://dynamic-forms559.netlify.app', // Replace with your actual frontend domain
+  credentials: true, // Include this if you want cookies to be sent with requests
+}));
+
+
 
 app.use(logger);
 
