@@ -25,9 +25,9 @@ export default {
           foreground: colors.slate[500],
         },
         primary: {
-          DEFAULT: colors.indigo[700],
-          foreground: colors.slate[50],
-          background: colors.indigo[100],
+          DEFAULT: colors.black,
+          foreground: colors.white,
+          background: colors.gray[800], // You can adjust this shade of gray for contrast if needed
         },
         secondary: {
           DEFAULT: colors.slate[100],

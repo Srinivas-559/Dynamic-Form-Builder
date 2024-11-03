@@ -9,8 +9,8 @@ export default function AuthLayout() {
       <header className="fixed left-0 right-0 top-0 z-30 border-b bg-white/80 backdrop-blur-sm">
         <div className="mx-auto flex h-16 w-full max-w-[1440px] items-center justify-between px-6">
           <Link to="/">
-            <h1 className="font-cursive text-3xl font-bold text-primary">
-              Form Builder
+            <h1 className="font-semibold text-3xl font-bold ">
+              Dynamic Forms 
             </h1>
           </Link>
           <div className="flex gap-6">
@@ -20,7 +20,7 @@ export default function AuthLayout() {
               size="lg"
               asChild
             >
-              <Link to="/demo">Demo</Link>
+              <Link to="/demo">Practice</Link>
             </Button>
             <Button size="lg" asChild>
               <Link to={pathname === '/signup' ? '/login' : '/signup'}>
