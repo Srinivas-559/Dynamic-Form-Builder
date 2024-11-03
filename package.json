@@ -1,11 +1,11 @@
 {
   "name": "form-builder",
   "version": "1.0.0",
-  "private": true,  // It's a good practice to keep monorepos private
+  "private": true,
   "workspaces": [
-    "packages/*",  // Adjust this path to match your folder structure
-    "server",      // Include your server directory if it's a workspace
-    "validation"   // Include the validation package directory if separate
+    "packages/*",
+    "server",
+    "validation"
   ],
   "scripts": {
     "dev": "pnpm --stream -r run dev",
