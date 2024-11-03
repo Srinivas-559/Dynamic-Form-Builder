@@ -23,6 +23,10 @@ app.use(
     crossOriginResourcePolicy: false,
   }),
 );
+app.use(cors({
+  origin: allowedOrigins, // Your allowed origins here
+  credentials: true, // Important for sending cookies with requests
+}));
 
 app.use(logger);
 
